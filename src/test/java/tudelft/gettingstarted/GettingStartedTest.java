@@ -9,7 +9,7 @@ public class GettingStartedTest {
     public void addFiveTo20() {
         int result = new GettingStarted().addFive(20);
         Assertions.assertEquals(25,result);
-        Assertions.assertEquals(30,result);
+       // Assertions.assertEquals(30,result);
     }
     /*public int addFive (int number) {
         return number + 5;
